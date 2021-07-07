@@ -1,0 +1,1 @@
+{"version":3,"file":"closableSocket.js","sourceRoot":"","sources":["../src/closableSocket.ts"],"names":[],"mappings":";;;AAEA,MAAa,cAAc;IACvB,YAAmB,MAAmB;QAAnB,WAAM,GAAN,MAAM,CAAa;IAEtC,CAAC;IAED,KAAK;QACD,IAAI,CAAC,MAAM,CAAC,GAAG,EAAE,CAAC;IACtB,CAAC;IAED,EAAE,CAAC,KAAa,EAAE,QAAkC;QAChD,IAAI,CAAC,MAAM,CAAC,EAAE,CAAC,KAAK,EAAC,QAAQ,CAAC,CAAC;IACnC,CAAC;CACJ;AAZD,wCAYC"}

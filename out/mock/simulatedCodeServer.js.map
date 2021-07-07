@@ -1,0 +1,1 @@
+{"version":3,"file":"simulatedCodeServer.js","sourceRoot":"","sources":["../../src/mock/simulatedCodeServer.ts"],"names":[],"mappings":";;;AAGA,6CAA0C;AAC1C,+DAA4D;AAE5D,MAAa,mBAAmB;IAE5B,SAAS,CAAC,MAAoB;QAC1B,OAAO,IAAI,uBAAU,EAAE,CAAC;IAC5B,CAAC;IAED,cAAc;QACV,OAAO,IAAI,yCAAmB,EAAE,CAAC;IACrC,CAAC;CAEJ;AAVD,kDAUC"}
