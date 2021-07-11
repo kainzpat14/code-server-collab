@@ -10,7 +10,7 @@ console.log("Mock server starting");
 MockableApis.codeServer = new SimulatedCodeServer();
 
 const app = express();
-const port = 8180;
+const port = 8080;
 
 const server = http.createServer(app);
 
@@ -28,6 +28,7 @@ wsApp.use(plugin.routerPath, plugin.wsRouter().router);
 //code copied from code-server
 server.on("upgrade", (req, socket, head) => {
     socket.pause()
+    console.log("Handle upgrade");
 
     req.ws = socket
     req.head = head

@@ -39,6 +39,7 @@ export class CollabPlugin implements Plugin {
         wsRouter.ws("/yjs/*", (req,res,next) => {
             this.logger.debug("New websocket request");
             try {
+                req.socket.resume();
                 let relativeUrl = req.url.slice(4);
                 req.baseUrl+="/yjs"
                 req.url = relativeUrl;
