@@ -5,7 +5,8 @@
   "scripts": {
     "compile": "build/fixdependencies.sh && tsc -p ./",
     "test": "npm run compile && node ./out/mock/main.js",
-    "prepare": "npm run compile && mkdir -p target/collab/ && rm -Rf target/collab/* && cp out/* target/collab/ -R && cp node_modules target/collab/node_modules -R && cp package.json target/collab/ && rm -rf target/collab/mock"
+    "prepare": "npm run compile && mkdir -p target/collab/ && rm -Rf target/collab/* && cp out/* target/collab/ -R && cp node_modules target/collab/node_modules -R && cp package.json target/collab/ && rm -rf target/collab/mock",
+    "package": "npm run prepare && cd target && rm -f code-server-collab.tar.gz && tar cvfz code-server-collab.tar.gz collab"
   },
   "repository": {
     "type": "git",
