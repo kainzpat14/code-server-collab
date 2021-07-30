@@ -1,7 +1,7 @@
 # code-server-collab
 Code-Server collaboration backend plugin, to interoperate with my frontend collaboration plugin [kainzpat14/code-collab](https://github.com/kainzpat14/code-collab)
 
-*IMPORTANT*: This plugin provides an authenticated YJS-Websocket on your code-server installation, as the frontend runs locally, make sure that your reverse proxy filters any calls to /collab. 
+*IMPORTANT*: This plugin provides an unauthenticated YJS-Websocket on your code-server installation, as the frontend runs locally, make sure that your reverse proxy filters any calls to /collab. 
 
 ## How to install: 
 
